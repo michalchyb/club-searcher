@@ -1,0 +1,17 @@
+<div class="list row">
+    <div class="col-md-4 wrapper">
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Search by club name..." [(ngModel)]="clubname" />
+            <div class="input-group-append">
+                <button class="btn btn-primary" type="submit" (click)="searchClub()">
+                    Search
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+        <div class="link">
+                <a href="{{link.output}}" target="_blank">{{link.output}}</a>
+        </div>
+    </div>
+</div>
